@@ -18,7 +18,7 @@ Targeting AMD Artix 7 FPGA (XC7A50T-1FGG484C)
 | **GTP Transceivers** | 4 (up to 3.75 Gb/s) |
 | **PCIe** | Gen2 ×4 |
 
-### Day 7 - Bridge Repair | [day07.ml](day07/src/day07.ml)
+### Day 7 - Bridge Repair
 
 The solution processes a 2D grid stream to determine bridge connectivity. To handle the vertical dependencies inherent in grid navigation without the high resource cost of a full frame buffer, the design utilizes a **Circular Buffer** to create a configurable delay line.
 
