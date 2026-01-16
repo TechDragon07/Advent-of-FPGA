@@ -1,0 +1,7 @@
+(library
+ (name test_day07)
+ (libraries core hardcaml day07_dune hardcaml_test_harness
+   hardcaml_waveterm re)
+ (preprocess
+  (pps ppx_hardcaml ppx_jane ppx_expect))
+ (inline_tests))
